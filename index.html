@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Main Pgae</title>
+    <link rel="stylesheet" href="css\Fonts.css">
+    <link rel="stylesheet" href="css\Style.css">
+    <link rel="stylesheet" href="css\Media_Responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  </head>
+  <body>
+
+    <nav id="mainNav" class="navbar navbar-dark px-5 blackBack">
+      <a class="navbar-brand" href="#"><img src="Assets\img\logo\DataOne_White.svg" alt="Logo" width="200px"></a>
+      <div  class="my-2 my-lg-0 hstack gap-3 d-flex">
+        <a class="navbar-brand" href="#"><i class="bi bi-envelope-fill"></i></a>
+        <a class="navbar-brand" href="#"><i class="bi bi-bell-fill"></i></a>
+        <div class="vr bg-light"></div>
+        <div class="btn-group">
+          <button type="button" class="btn dropdown-toggle text-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User Name <a href="#"><img src="https://images.unsplash.com/photo-1628890920690-9e29d0019b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="You" height="35px" width="35px" class="rounded-circle"></a></button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <button class="dropdown-item" type="button">Action</button>
+            <button class="dropdown-item" type="button">Another action</button>
+            <button class="dropdown-item" type="button">Something else here</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav  id="homePageNav" class="navbar px-3 darkBlue">
+      <div class="col-8 d-flex ">
+        <label class="text-light px-5">DSS Data Security Standard</label>
+        <div class="dropdown hide">
+          <label class=" dropdown-toggle text-light" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-funnel-fill"></i> Filter</label>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control-dropdown" />
+              <label class="form-label" for="form1">Search</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 d-flex justify-content-end paddingr5">
+        <a class="navbar-brand" href="#"><i class="bi bi-grid-fill text-light "></i></a>
+        <a class="navbar-brand" href="#"><i class="bi bi-arrow-up-right text-light"></i></a>
+        <form class="form-inline d-flex">
+          <input class="text-light form-control hide mr-sm-2 border-0 bg-transparent border-bottom radiusZero" type="search" placeholder="Search" aria-label="Search">
+          <i class="bi bi-search text-light m-auto"></i>
+        </form>
+      </div>
+    </nav>
+
+    <section id="My_Items">
+      <h4 class="title"> <span>MY ITEMS</span> <i> > </i></h4>
+        <div class="back_items d-flex justify-content-between">
+          <div class="d-flex justify-content-between itemshow" style="display: grid !important;">
+            <div id="item_3" class="itemCard mt-3 text-light d-flex flex-column justify-content-center align-items-center">
+              <div class="itmeIcon my-2 d-flex justify-content-center align-items-center">
+                <img src="Assets/img/icons/Evaluate.svg" alt="Evaluate">
+              </div>
+              <h4 class="my-3">Evaluate</h4>
+              <p my-2>Flow Speed</br>by Universse</p>
+            </div>
+            <div id="item_1" class="itemCard mt-3 text-light d-flex flex-column justify-content-center align-items-center">
+              <div class="itmeIcon my-2 d-flex justify-content-center align-items-center">
+                <img src="Assets/img/icons/Training.svg" alt="Training">
+              </div>
+              <h4 class="my-3">Training Data</h4>
+              <p my-2>Flights Delayed</br>by Riri</p>
+            </div>
+            <div id="item_2" class="itemCard mt-3 text-light d-flex flex-column justify-content-center align-items-center">
+              <div class="itmeIcon my-2 d-flex justify-content-center align-items-center">
+                <img src="Assets/img/icons/Group.svg" alt="Group">
+              </div>
+              <h4 class="my-3">Group Data</h4>
+              <p my-2>Flights Delayed</br>by Riri</p>
+            </div>
+            <div id="item_4" class="itemCard mt-3 text-light d-flex flex-column justify-content-center align-items-center">
+              <div class="itmeIcon my-2 d-flex justify-content-center align-items-center">
+                <img src="Assets/img/icons/Training.svg" alt="Training">
+              </div>
+              <h4 class="my-3">Training Data</h4>
+              <p my-2>Peaqock</br>by Zineb</p>
+            </div>
+            <div id="item_5" class="itemCard mt-3 text-light d-flex flex-column justify-content-center align-items-center">
+              <div class="itmeIcon my-2 d-flex justify-content-center align-items-center">
+                <img src="Assets/img/icons/Group.svg" alt="Group">
+              </div>
+              <h4 class="my-3">Group Data</h4>
+              <p my-2>Flights Delayed</br>by Riri</p>
+            </div>
+          </div>
+          <div id="More_Items" class="mt-3 bg-light itemplus blackBack d-flex flex-column justify-content-center align-items-center">
+            <a href="#">
+              <img text-light src="Assets/img/icons/next.svg" alt="next">
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <section id="Project">
+      <h4 class="title"><span>projects</span> <i> > </i></h4>
+      <div class="d-flex justify-content-around PROJECTS" id="back_Project">
+        <div class="d-flex justify-content-between projectshow" style="display: grid !important;">
+
+          <div class="projectCard">
+            <div class="projectContent"  style='background-image: url(&quot;https://images.unsplash.com/photo-1576615039667-c7a34b96f505?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80&quot;);' >
+              <h4 class="pt-4">Peaqock</h4>
+              <p>Lorem ipsum sit amet, consectetur adipiscing elit sit amet.</p>
+              <div class="project_etat">
+                <i class="text-success bi bi-circle-fill"></i>
+                <label>in Use</label>
+              </div>
+              <div class="projectuser">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1628890920690-9e29d0019b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+              </div>
+            </div>
+          </div>
+
+          <div class="projectCard">
+            <div class="projectContent" style='background-image: url(https://images.unsplash.com/photo-1542866263-77e2cdc46889?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);'>
+              <h4 class="pt-4">Orders</h4>
+              <p>Lorem ipsum sit amet, consectetur adipiscing elit sit amet.</p>
+              <div class="project_etat">
+                <i class="text-success bi bi-circle-fill"></i>
+                <label>in Use</label>
+              </div>
+              <div class="projectuser">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1628890920690-9e29d0019b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+              </div>
+            </div>
+        </div>
+
+        <div class="projectCard">
+          <div class="projectContent" style='background-image: url(https://images.unsplash.com/photo-1607513746994-51f730a44832?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);' >
+              <h4 class="pt-4">Flow Speed</h4>
+              <p>Lorem ipsum sit amet, consectetur adipiscing elit sit amet.</p>
+              <div class="project_etat">
+                <i class="text-success bi bi-circle-fill"></i>
+                <label>in Use</label>
+              </div>
+              <div class="projectuser">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1628890920690-9e29d0019b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+              </div>
+            </div>
+          </div>
+
+        <div class="projectCard">
+          <div class="projectContent" style='background-image: url(https://images.unsplash.com/photo-1564352969906-8b7f46ba4b8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);' >
+              <h4 class="pt-4">Delay</h4>
+              <p>Lorem ipsum sit amet, consectetur adipiscing elit sit amet.</p>
+              <div class="project_etat">
+                <i class="text-success bi bi-circle-fill"></i>
+                <label>in Use</label>
+              </div>
+              <div class="projectuser">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt="" width="30px" height="30px">
+                <img class="rounded-circle" src='https://images.unsplash.com/photo-1628890920690-9e29d0019b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+              </div>
+            </div>
+          </div>
+
+        <div class="projectCard">
+          <div class="projectContent" style='background-image: url(&quot;https://images.unsplash.com/photo-1576615039667-c7a34b96f505?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80&quot;);' >
+            <h4 class="pt-4">Ram Speed</h4>
+            <p>Lorem ipsum sit amet, consectetur adipiscing elit sit amet.</p>
+            <div class="project_etat">
+              <i class="text-success bi bi-circle-fill"></i>
+              <label>in Use</label>
+            </div>
+            <div class="projectuser">
+              <img class="rounded-circle" src='https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+              <img class="rounded-circle" src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+              <img class="rounded-circle" src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+              <img class="rounded-circle" src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt="" width="30px" height="30px">
+              <img class="rounded-circle" src='https://images.unsplash.com/photo-1628890920690-9e29d0019b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' alt="" width="30px" height="30px">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        <div class="Projectplus bg-light d-flex flex-column justify-content-center align-items-center">
+          <a  href="#">
+            <img text-light src="Assets/img/icons/next.svg" alt="next">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="workSpace">
+
+      <h4 class="title"><span>WORK SPACE</span> <i> > </i></h4>
+      <div class="WorkSpace d-flex justify-content-between">
+        <div class="d-flex justify-content-between WorkSpaceshow" style="display: grid !important">
+
+          <div class="Space">
+            <div class="SpaceContent d-flex flex-column justify-content-center"  style='background-image: url(https://images.unsplash.com/photo-1572040917409-60ca0cfcc2df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);'>
+              <h4>Getting Start</h4>
+              <p>Lorem ipsum sit amet, consectetur adipiscing elit sit amet.</p>
+            </div>
+          </div>
+
+          <div class="Space">
+            <div class="SpaceContent d-flex flex-column justify-content-center"  style='background-image: url(&quot;https://images.unsplash.com/photo-1576615039667-c7a34b96f505?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80&quot;);'>
+              <h4>New Data</h4>
+              <p>Lorem ipsum sit amet, consectetur adipiscing elit sit amet.</p>
+            </div>
+          </div>
+
+          <div class="Space">
+            <div class="SpaceContent d-flex flex-column justify-content-center"  style='background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);'>
+              <h4>Operation</h4>
+              <p>Lorem ipsum sit amet, consectetur adipiscing elit sit amet.</p>
+            </div>
+          </div>
+
+          <div class="Space">
+            <div class="SpaceContent d-flex flex-column justify-content-center"  style='background-image: url(https://images.unsplash.com/photo-1554755229-ca4470e07232?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);'>
+              <h4>Cases</h4>
+              <p>Lorem ipsum sit amet, consectetur adipiscing elit sit amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="Workplus  d-flex flex-column justify-content-center align-items-center">
+          <a href="#">
+            <img text-light src="Assets/img/icons/next.svg" alt="next">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="useCase">
+          <h4 class="title"><span>Use Cases</span> <i> > </i></h4>
+          <div class="UseCase d-flex justify-content-between">
+            <div class="d-flex justify-content-between UseCaseshow" style="display: grid !important">
+
+              <div class="Case darkBlue d-flex justify-content-between flex-column">
+                <div class="CaseContent d-flex justify-content-center flex-column">
+                  <div class="CaseTitle d-flex align-items-center m-3">
+                    <img src="Assets/img/icons/CostBar.svg" alt="">
+                    <span class="mx-2" >Costs Predective</span>
+                  </div>
+                  <p class="mx-3">This user case follows the cost estimation of your next project</p>
+                </div>
+                <div class="caseunder"  style='background-image: url(https://images.unsplash.com/photo-1530982011887-3cc11cc85693?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80' ></div>
+              </div>
+
+              <div class="Case darkBlue d-flex justify-content-between flex-column">
+                <div class="CaseContent d-flex justify-content-center flex-column">
+                  <div class="CaseTitle d-flex align-items-center m-3">
+                    <img src="Assets/img/icons/predect.svg" alt="">
+                    <span class="mx-2" >Predective Revenue</span>
+                  </div>
+                  <p class="mx-3">This user case follows the grown of your sells .</p>
+                </div>
+                <div class="caseunder"  style='background-image: url(https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' ></div>
+              </div>
+
+              <div class="Case darkBlue d-flex justify-content-between flex-column">
+                <div class="CaseContent d-flex justify-content-center flex-column">
+                  <div class="CaseTitle d-flex align-items-center m-3">
+                    <img src="Assets/img/icons/time.svg" alt="">
+                    <span class="mx-2" >Time Sells</span>
+                  </div>
+                  <p class="mx-3">This user case follows the cost estimation of your next project</p>
+                </div>
+                <div class="caseunder"  style='background-image: url(https://images.unsplash.com/photo-1583621908511-e082803e3aa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1027&q=80' ></div>
+              </div>
+
+              <div class="Case darkBlue d-flex justify-content-between flex-column">
+                <div class="CaseContent d-flex justify-content-center flex-column">
+                  <div class="CaseTitle d-flex align-items-center m-3">
+                    <img src="Assets/img/icons/worker.svg" alt="">
+                    <span class="mx-2" >Costs Predective</span>
+                  </div>
+                  <p class="mx-3">This user case follows the cost estimation of your next project</p>
+                </div>
+                <div class="caseunder"  style='background-image: url(https://images.unsplash.com/photo-1617957772097-93dc166cd335?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60' ></div>
+              </div>
+
+
+            </div>
+
+            <div class="Caseplus  d-flex flex-column justify-content-center align-items-center">
+              <a href="#">
+                <img text-light src="Assets/img/icons/next.svg" alt="next">
+              </a>
+            </div>
+
+          </div>
+        </section>
+
+    <section id="Application">
+        <h4 class="title"><span>APPLICATION</span> <i> > </i></h4>
+        <div class="APPS d-flex justify-content-between">
+          <div class="d-flex justify-content-between APPLICATIONshow" style="display: grid !important">
+
+            <div class="app">
+              <div class="appContent darkBlue shadow d-flex flex-column justify-content-center align-items-center">
+                <img src="Assets/img/app-icon/pie.svg">
+                <label class="pt-3">SALES FORECATS</label>
+              </div>
+            </div>
+
+            <div class="app">
+              <div class="appContent darkBlue shadow d-flex flex-column justify-content-center align-items-center">
+                <img src="Assets/img/app-icon/bars.svg">
+                <label class="pt-3">SPEED TEST</label>
+              </div>
+            </div>
+
+            <div class="app">
+              <div class="appContent darkBlue shadow d-flex flex-column justify-content-center align-items-center">
+                <img src="Assets/img/app-icon/titres.svg">
+                <label class="pt-3">PREDACTION</label>
+              </div>
+            </div>
+
+            <div class="app">
+              <div class="appContent darkBlue shadow d-flex flex-column justify-content-center align-items-center">
+                <img src="Assets/img/app-icon/eye.svg">
+                <label class="pt-3">TARGET SALES</label>
+              </div>
+            </div>
+
+            <div class="app">
+              <div class="appContent darkBlue shadow d-flex flex-column justify-content-center align-items-center">
+                <img src="Assets/img/app-icon/pie.svg">
+                <label class="pt-3">PROFITE TOTAL</label>
+              </div>
+            </div>
+
+            <div class="app">
+              <div class="appContent darkBlue shadow d-flex flex-column justify-content-center align-items-center">
+                <img src="Assets/img/app-icon/bars.svg">
+                <label class="pt-3">STOCK GROW</label>
+              </div>
+            </div>
+
+            <div class="app">
+              <div class="appContent darkBlue shadow d-flex flex-column justify-content-center align-items-center">
+                <img src="Assets/img/app-icon/titres.svg">
+                <label class="pt-3">MORE NEED</label>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="appplus d-flex flex-column justify-content-center align-items-center">
+            <a href="#">
+              <img text-light src="Assets/img/icons/next.svg" alt="next">
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    <section id=DASHBOARD>
+        <h4 class="title"><span>DASHBOARD</span> <i> > </i></h4>
+        <div class="DASHBOARDS d-flex justify-content-between">
+          <div class="d-flex justify-content-between DASHBOARDshow" style="display: grid !important">
+
+            <div class="dashboardcontent shadow d-flex flex-column justify-content-center align-items-center ">
+              <img src="https://images.unsplash.com/photo-1484734278752-212d8c88a568?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width="90%" height="35%">
+              <div class="align-self-start mx-3 mt-3">
+                <h4>NYC DASHBOARD</h4>
+                <p>Nemo enim ipsam voluptatem</p>
+                <label>6 Pages 1 TITEL</label>
+              </div>
+            </div>
+
+            <div class="dashboardcontent shadow d-flex flex-column justify-content-center align-items-center ">
+              <img src="https://images.unsplash.com/photo-1626908013351-800ddd734b8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" width="90%" height="35%">
+              <div class="align-self-start mx-3 mt-3">
+                <h4>Peaqock DASHBOARD</h4>
+                <p>Nemo enim ipsam voluptatem</p>
+                <label>2 Pages 5 TITEL</label>
+              </div>
+            </div>
+
+            <div class="dashboardcontent shadow d-flex flex-column justify-content-center align-items-center ">
+              <img src="https://images.unsplash.com/photo-1506818144585-74b29c980d4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width="90%" height="35%">
+              <div class="align-self-start mx-3 mt-3">
+                <h4>Flow DASHBOARD</h4>
+                <p>Nemo enim ipsam voluptatem</p>
+                <label>1 Pages 10 TITEL</label>
+              </div>
+            </div>
+
+            <div class="dashboardcontent shadow d-flex flex-column justify-content-center align-items-center ">
+              <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" width="90%" height="35%">
+              <div class="align-self-start mx-3 mt-3">
+                <h4>My App DASHBOARD</h4>
+                <p>Nemo enim ipsam voluptatem</p>
+                <label>20 Pages 6 TITEL</label>
+              </div>
+            </div>
+
+          </div>
+          <div>
+            <div class="dashboardplus shadow d-flex flex-column justify-content-center align-items-center ">
+              <a href="#">
+                <img text-light src="Assets/img/icons/next.svg" alt="next">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

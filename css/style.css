@@ -1,0 +1,529 @@
+/*CSS Rest Start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS REST END */
+
+
+/*Body*/
+body
+{
+  background-color: #FAFAFA !important ;
+}
+
+
+/*backgrounds*/
+
+.blackBack
+{
+	background-color: #000000;
+}
+
+.darkBlue
+{
+	 background-color: #001823;
+}
+
+/*Titles*/
+
+.title
+{
+margin-top: 2%;
+margin-left: 10%;
+margin-bottom: 1%;
+font-family: 'Circe';
+font-weight: bold;
+font-size: 20px;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+}
+.title i
+{
+	font-size: 25px;
+	margin-left: 50px;
+	color: #212529;
+}
+
+/*Items Card*/
+
+.back_items
+{
+	height: 230px;
+  background-image: url("../Assets/img/background/backitems.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10%;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.itemCard
+{
+  height: 200px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+	margin: 0 1%;
+}
+
+.itemplus
+{
+	height: 200px;
+	width: 125px;
+	border-radius: 15px 0px 0px 15px;
+}
+
+.itmeIcon
+ {
+	 height: 25%;
+	 width: 20%;
+	 border: 1px solid white;
+	 border-radius: 50%;
+	 /*border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 2;*/
+ }
+
+.itemCard h4
+{
+	font-family: 'Circe';
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.itemCard p
+{
+	font-family: 'Circe';
+	font-weight: 300;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+}
+
+.itemshow
+{
+	width: 88%;
+	margin: 0 1%;
+	display: grid !important;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-column-gap: 1rem;
+	grid-row-gap: 5rem;
+	overflow: hidden;
+}
+
+/*Projects*/
+.PROJECTS
+{
+	margin-left: 10%;
+}
+
+.projectCard
+{
+	background-color: white;
+	box-shadow: 0px 4px black;
+	width: 250px;
+	height: 350px;
+	box-shadow: 1px 4px 4px gray;
+	border-radius: 10px;
+}
+
+.projectContent
+{
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40% 100%;
+	border-radius: 10px 0px 0px 10px;
+	background-position: left top, right top;
+	cursor: pointer;
+}
+
+.projectContent h4
+{
+	font-family: 'Circe Extra';
+	font-weight: bold;
+	padding-left: 45%;
+}
+
+.projectContent p
+{
+	padding-left: 45%;
+}
+
+.projectshow
+{
+	width: 88%;
+	height: 360px;
+	margin: 0 1%;
+	display: grid !important;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-column-gap: 1rem;
+	grid-row-gap: 6rem;
+	overflow: hidden;
+}
+
+.Projectplus
+{
+	height: 350px;
+	width: 175px;
+	box-shadow: 1px 4px 4px gray;
+	border-radius: 15px 0px 0px 15px;
+}
+
+.project_etat
+{
+	margin: auto 37%;
+	font-family: 'Circe';
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.projectuser
+{
+	margin: 30% 0% 0% 60%;
+}
+
+.projectuser img
+{
+	margin-left: -18%;
+}
+
+/*Folder*/
+
+.foldershow
+{
+width: 88%;
+height: 180px;
+margin: 0 1%;
+display: grid !important;
+grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+grid-column-gap: 1rem;
+grid-row-gap: 6rem;
+overflow: hidden;
+}
+
+.FOLDERS
+{
+	margin-left: 10%;
+}
+
+.folderCard
+{
+	width: 210px;
+	height: 170px;WorkSpaceshow
+	background-image: url("../Assets/img/background/folder_back.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.folderCard h4
+{
+	font-family: 'Circe Extra';
+	font-weight: bold;
+	color: white;
+	font-size: 22 px;
+}
+
+.folderCard p
+{
+	font-family: 'Circe';
+	font-weight: 300;
+	color: white;
+	font-size: 13px;
+}
+
+.folderplus
+{
+	height: 170px;
+	width: 165px;
+	background-position: left;
+	background-image: url("../../Assets/img/background/folder_white.svg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*WorkSpace*/
+
+.WorkSpace
+{
+	margin-left: 10%;
+}
+
+.Space
+{
+	background-color: white;
+	box-shadow: 0px 4px black;
+	width: 350px;
+	height: 250px;
+	box-shadow: 1px 4px 4px gray;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.SpaceContent
+{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30% 100%;
+	border-radius:  10px;
+	background-position: left top, right top;
+}
+
+.SpaceContent h4 , .SpaceContent p
+{
+	margin-left: 35%;
+	color: white;
+}
+
+.SpaceContent h4
+{
+	font-family: 'Circe Extra';
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.SpaceContent p
+{
+	font-family: 'Circe Extra';
+	font-weight: 200;
+	font-size: 15px;
+}
+
+.WorkSpaceshow
+{
+width: 88%;
+height: 260px;
+margin: 0 1%;
+display: grid !important;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+grid-column-gap: 0rem;
+grid-row-gap: 6rem;
+overflow: hidden;
+}
+
+.Workplus
+{
+	width: 175px;
+	height: 250px;
+	box-shadow: 1px 4px 4px gray;
+	border-radius: 15px 0px 0px 15px;
+}
+
+/*UseCases*/
+
+.UseCase
+{
+	margin-left: 10%;
+}
+
+.UseCaseshow
+{
+width: 88%;
+height: 260px;
+margin: 0 1%;
+display: grid !important;
+grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+grid-column-gap: 0rem;
+grid-row-gap: 6rem;
+overflow: hidden;
+}
+
+.Case
+{
+	box-shadow: 0px 4px black;
+	width: 300px;
+	height: 200px;
+	box-shadow: 1px 4px 4px gray;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.CaseContent
+{
+	color: white;
+}
+
+.CaseTitle
+{
+	font-family: 'Circe Extra';
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.CaseContent p
+{
+	font-family: 'Circe';
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.caseunder
+{
+	height: 30%;
+	border-radius: 0px 0px 10px 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.Caseplus
+{
+	width: 175px;
+	height: 200px;
+	box-shadow: 1px 4px 4px gray;
+	border-radius: 15px 0px 0px 15px;
+}
+
+/*APPS*/
+
+.APPS
+{
+	margin-left: 10%;
+}
+
+.appContent
+{
+	height: 200px;
+	width: 150px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.appContent label
+{
+	font-family: 'Circe Extra';
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+}
+
+.APPLICATIONshow
+{
+	width: 88%;
+	height: 260px;
+	margin: 0 1%;
+	display: grid !important;
+	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+	grid-column-gap: 1rem;
+	grid-row-gap: 6rem;
+	overflow: hidden;
+}
+
+.appplus
+{
+	width: 170px;
+	height: 200px;
+	box-shadow: 1px 4px 4px gray;
+	border-radius: 15px 0px 0px 15px;
+
+}
+
+/*DASHBOARDS*/
+
+.DASHBOARDS
+{
+	margin-left: 10%;
+}
+
+.dashboardcontent
+{
+	height: 200px;
+	width: 325px;
+	background-color: white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.dashboardcontent h4
+{
+	font-size: 14px;
+	font-family: 'Circe';
+	font-weight: bold;
+}
+
+.dashboardcontent p
+{
+	font-size: 11px;
+	font-family: 'Circe';
+	font-weight: bold;
+	font-weight: normal;
+
+}
+
+.dashboardcontent label
+{
+	font-size: 12px;
+	font-family: 'Circe';
+	font-weight: bold;
+	font-weight: normal;
+	margin-left: 200px;
+
+}
+
+.dashboardplus
+{
+	height: 200px;
+	width: 160px;
+	box-shadow: 1px 4px 4px gray;
+	border-radius: 15px 0px 0px 15px;
+}
+
+.DASHBOARDshow
+{
+	width: 88%;
+	height: 260px;
+	margin: 0 1%;
+	display: grid !important;
+	grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+	grid-column-gap: 1rem;
+	grid-row-gap: 6rem;
+	overflow: hidden;
+}

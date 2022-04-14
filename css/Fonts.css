@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Circe Extra';
+    src: url('../Assets/Fonts/Circe/Circe-ExtraBold.woff2') format('woff2'),
+        url('../Assets/Fonts/Circe/Circe-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe Extra';
+    src: url('../Assets/Fonts/Circe/Circe-ExtraLight.woff2') format('woff2'),
+        url('../Assets/Fonts/Circe/Circe-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../Assets/Fonts/Circe/Circe-Regular.woff2') format('woff2'),
+        url('../Assets/Fonts/Circe/Circe-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../Assets/Fonts/Circe/Circe-Bold.woff2') format('woff2'),
+        url('../Assets/Fonts/Circe/Circe-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../Assets/Fonts/Circe/Circe-Light.woff2') format('woff2'),
+        url('../Assets/Fonts/Circe/Circe-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

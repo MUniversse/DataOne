@@ -1,0 +1,9 @@
+/* Responsive all Screen*/
+
+@media (max-width: 700px)
+{
+  .hide
+  {
+    display: none  !important;
+  }
+}
